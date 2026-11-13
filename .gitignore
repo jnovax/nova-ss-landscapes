@@ -1,0 +1,33 @@
+.gradle/
+build/
+app/build/
+apps/**/build/
+core/**/build/
+*.iml
+.idea/
+local.properties
+.DS_Store
+*.apk
+*.keystore
+app/debug.keystore
+apps/launcher/debug.keystore
+CONTEXT.md
+backups/
+build/downloads/
+
+# Audit report outputs (device-specific, not for version control)
+reports/*.md
+reports/*.txt
+reports/*.sh
+reports/*.json
+!reports/.gitkeep
+
+# Local wallpapers
+wallpapers/
+raw/
+resources/
+
+# Git worktrees
+.worktrees/
+worktrees/
+
